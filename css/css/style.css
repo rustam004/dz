@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_1 {
+    background: url(../img/PhotoOne.png);
+    background-repeat: no-repeat; 
+    background-position: center top;   
+    background-size: cover;
+    width: 1440px;
+    height: 789px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.text_1 {
+    padding-top: 130px;
+    padding-left: 160px;
+}
+
+.text_1 h1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+}
+
+.btn {
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border: none;
+    color: white;
+}
+
+.section_2 {
+    width: 1440px;
+    height: 789px
+}
+
+.nav_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.nav_1 h1 {
+    color: #0499DD;
+}
+
+.nav_1 a {
+    color: black;
+}
+
+.window {
+    background: url(../img/PhotoTwo.png);
+    background-repeat: no-repeat; 
+    background-position: center top;   
+    background-size: cover;
+    margin-top: 40px;
+    width:  360px;
+    height: 500px;
+    padding: 10px;
+    color: white;
+    padding-top: 150px;
+    border-radius: 10px;
+}
+
+.window_2 {
+    background: url(../img/PhotoTwo.png);
+    background-repeat: no-repeat; 
+    background-position: center top;   
+    background-size: cover;
+    margin-top: 40px;
+    width:  360px;
+    height: 500px;
+    padding: 10px;
+    color: white;
+    padding-top: 150px;
+    border-radius: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.time {
+    padding: 3px;
+}
+
+.frame {
+    padding: 10px;
+}
+
+.our {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section_3 {
+    background: url(../img/PhotoThree.png);
+    background-repeat: no-repeat; 
+    background-position: center top;   
+    background-size: cover;
+    width: 1440px;
+    height: 789px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_3 h1 {
+    color: #0499DD;
+    padding-bottom: 40px;
+}
+
+.text_3 {
+    background-color: white;
+    width: 540px;
+    height: 480px;
+    border-radius: 20px;
+    padding-top: 60px;
+    padding-left: 85px  ;
+}
+
+.text_3 p {
+    width: 300px;
+}
